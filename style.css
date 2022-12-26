@@ -1,0 +1,266 @@
+h1{
+    text-align: center;
+    margin-bottom: 9px;
+    padding-top: 7px;
+
+}
+body{
+  transition: 0.7s;
+}
+
+.name{
+  letter-spacing: 4px;
+  transition: 0.4s;
+}
+.name:hover{
+  text-shadow: 2px 2px 9px black;
+    color:white;
+}
+nav {
+   
+    background-color: #333;
+    box-shadow: 3px 8px 20px  black; 
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  #themeMode{
+    /* border-radius: 20px; */
+    font-size: 2vh;
+    height: 7vh;
+
+
+ 
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 17px;
+    text-decoration: none;
+    transition: 0.4s ;
+  }
+  .nav li a:hover{
+    color: #888!important;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    background-color: white;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: fantasy;
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+  
+}
+  .personal-img{
+
+    width: 33vh;
+    margin: 5vh;
+    box-shadow: 5px 5px 20px black;
+  }
+  /* #work{
+    margin: 6px;
+    padding: 5px;
+  } */
+
+#work .col{
+  display: flex!important;
+  justify-content: center!important;
+}
+.con{
+  text-decoration: none;
+  color: black;
+  
+}
+#contact i{
+  font-size: 5vh;
+  display: inline-block;
+  margin: 10px;
+  margin-right: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  color: white;
+}
+
+.nw{
+  margin-bottom: 22px;
+}
+.link{
+  font-size: 100px;
+  color: red;
+}
+i{
+  grid-template:200px;
+}
+#end{
+  background-color: #777;
+}
+  .footer{
+    background-color: #191919;
+    color: white;
+    
+  }
+  /* .footer .container{
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+      gap: 40px;
+    } */
+
+  .footer .box h3{
+    color: white;
+    font-size: 7vh;
+    margin: 0 0 20px;
+    font-weight: bold;
+  list-style: none;
+}
+
+  
+  .footer .box .social{
+    display: flex;
+  list-style: none;
+  }
+  .footer .box .social li{
+ margin-right: 10px;
+  }
+  .footer .box .social li a{
+    background-color: #313131;
+    color: #898989;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+.footer .box .social .telegram:hover{
+  background-color:#0088cc
+}
+.footer .box .social .youtube:hover{
+  background-color:#ff0000;
+}
+.footer .box .social .twitter:hover{
+  background-color: #1da1f2;
+}
+.footer .box .social .facebook:hover{
+  background-color:#1877f2;
+}
+.footer .box .social .instagram:hover{
+  background-color: #405de6;
+}
+.footer .box .text{
+  line-height: 2;
+  color: #b9b9b9;
+}
+.footer .box .links li{
+  padding: 15px 0;
+    transition: var(--main-transition);
+    list-style: none;
+
+}
+.footer .box .links li:not(:last-child){
+  border-bottom: 1px solid #444;
+
+}
+.footer .box .links li:hover{
+  padding-left: 10px;
+
+
+}
+.footer .box .links li:hover a{ 
+color: white;
+}
+.footer .box .links li a{
+color: #b9b9b9;
+transition: var(--main-transition);
+}
+.footer .box .links li a::before{
+  font-family: "font Awesome 5 free";  
+  content: "\f101";
+  font-weight: 900;
+  margin-right: 10px;
+  color: var(--main-color);
+}
+.footer .box .line{
+    align-items: center;
+    color: #b9b9b9;
+    margin-top: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer .box .line i{
+font-size: 25px;
+color: white;
+margin-right: 10px;
+}
+.footer .box .line .info{
+  line-height: 1.8;
+  flex: 1;
+}
+.line-parent{
+  margin-left: -15px;
+ 
+}
+
+
+.white-shadow{
+  box-shadow:5px 5px 20px white!important; 
+}
+input{
+  border: solid #020e1f;
+
+}
+h4{
+margin-top: auto;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: fantasy;
+}
+#user{
+margin: 5px;
+    font-family: revert;
+    font-size: inherit;
+    line-height: inherit;
+}
+label{
+  color: white;
+}
+.input{
+  background-color: #313131;
+}
+h4{
+  color: white;
+}
+
+.signture{
+  width: 500px;
+  height: 500px;
+  background-color: #0088cc;
+  display: flex;
+  justify-content: center;
+  margin: 10vh 10vh;
+}
